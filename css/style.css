@@ -1,12 +1,53 @@
 /* GLOBAL RESET */
 * {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-  }
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
 
 .img-fluid {
-    width: 200px;
-    height: 200px;
-    object-fit: cover;
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+}
+
+.padding-1rem {
+  padding: 1rem;
+}
+
+.bg-red {
+  background-color: red;
+}
+
+/*img[src="Screenshot_20230112_202029.png"] {
+  height: 200px;
+  width: auto;
+}*/
+
+
+
+
+/*i add a backgruond imagin*/
+.bg-image {
+  background-image: url('img/Screenshot_20230112_202029.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  /* altezza della pagina */
+}
+
+.bg-text {
+  text-align: center;
+  color: white;
+  font-size: 3em;
+  /* dimensione del testo */
+}
+
+
+h1 {
+  text-align: center;
 }
