@@ -29,22 +29,21 @@
 
 /*i add a backgruond imagin*/
 .bg-image {
-  background-image: url('img/Screenshot_20230112_202029.png');
+  background-image: url("../img/Screenshot_20230112_202029.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 100vh;
-  /* altezza della pagina */
+  height: 100vh; /* altezza della pagina */
+  width: 100vw;
 }
 
 .bg-text {
   text-align: center;
-  color: white;
-  font-size: 3em;
-  /* dimensione del testo */
+  color: rgb(255, 255, 255);
+  font-size: 3em; /* dimensione del testo */
 }
 
 
