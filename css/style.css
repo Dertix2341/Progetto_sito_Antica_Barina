@@ -19,6 +19,21 @@
   background-color: red;
 }
 
+.first-space {
+  display: flex;
+  background-color: antiquewhite;
+  border: 2px solid black;
+  width: 965px;
+  height: 575px;
+  margin: 50px auto;
+  justify-content: center;
+
+}
+
+.text-center {
+  text-align: center;
+}
+
 /*img[src="Screenshot_20230112_202029.png"] {
   height: 200px;
   width: auto;
@@ -29,21 +44,24 @@
 
 /*i add a backgruond imagin*/
 .bg-image {
-  background-image: url("../img/Screenshot_20230112_202029.png");
+  background-image: url("../img/7d1c6a80-4c1a-4e6e-92d0-e11caa25cfd0.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 100vh; /* altezza della pagina */
+  height: 100vh;
+  /* altezza della pagina */
   width: 100vw;
 }
 
+
 .bg-text {
   text-align: center;
-  color: rgb(255, 255, 255);
-  font-size: 3em; /* dimensione del testo */
+  color: rgb(0, 0, 0);
+  font-size: 3em;
+  /* dimensione del testo */
 }
 
 
