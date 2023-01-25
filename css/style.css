@@ -48,9 +48,6 @@
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  display: flex;
-  align-items: center;
-  justify-content: center;
   height: 100vh;
   /* altezza della pagina */
   width: 100vw;
@@ -58,7 +55,6 @@
 
 
 .bg-text {
-  text-align: ;
   color: rgb(0, 0, 0);
   font-size: 3em;
   /* dimensione del testo */
@@ -69,9 +65,6 @@
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  display: flex;
-  align-items: center;
-  justify-content: center;
   height: 100vh;
   /* altezza della pagina */
   width: 100vw;

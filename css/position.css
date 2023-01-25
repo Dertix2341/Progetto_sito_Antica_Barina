@@ -1,0 +1,74 @@
+:root {
+    --size50:50%;
+  }
+.relative {
+  position: relative;
+}
+.absolute {
+  position: absolute;
+}
+.fixed {
+  position: fixed;
+}
+
+.right {
+  right: 0;
+}
+.top {
+  top: 0;
+}
+.left {
+  left: 0;
+}
+.bottom {
+  bottom: 0;
+}
+
+.relative-center {
+    
+
+  position: relative;
+  top: var(--size50);
+  left: var(--size50);
+  transform: translate(- var(--size50), - var(--size50));
+}
+.relativeY-center {
+
+  position: relative;
+  top: var(--size50);
+  transform: translateY(- var(--size50));
+}
+.relativeX-center {
+
+  position: relative;
+  left: var(--size50);
+  transform: translateX(- var(--size50));
+}
+.absolute-0 {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.absolute-center {
+  /* always into relative container !! */
+
+  position: absolute;
+  top: var(--size50);
+  left: var(--size50);
+  transform: translate(- var(--size50), - var(--size50));
+}
+.absoluteY-center {
+  /* always into relative container !! */
+
+  position: absolute;
+  top: var(--size50);
+
+  transform: translateY(- var(--size50));
+}
+.absoluteX-center {
+  /* always into relative container !! */
+
+  position: absolute;
+  left: var(--size50);
+  transform: translateX(- var(--size50));
+}

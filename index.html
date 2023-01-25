@@ -6,6 +6,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/generics.css" />
+    <link rel="stylesheet" href="css/position.css" />
+    <link rel="stylesheet" href="css/flex.css">
     <script type="text/javascript" src="js/menù_data.js" defer></script>
     <script type="text/javascript" src="js/javascript.js" defer></script>
     <title>Antica Barina</title>
@@ -13,9 +16,14 @@
 </head>
 
 <body>
+    <div class="flex">
+        <div class="col-2 h100px bg-red wrap"></div>
+        <div class="col-2 h100px bg-red wrap"></div>
+        <div class="col-2 h100px bg-red wrap"></div>
+    </div>
     <!-- HEADER -->
     <header>
-        <div class="bg-image"><!--immagine provvisoria-->
+        <div class="bg-image flex-total-center"><!--immagine provvisoria-->
             <div class="bg-text">Welcome to Antica Barina</div>
         </div>
     </header>
@@ -29,9 +37,16 @@
         <!--/first space-->
         <hr />
         <!--second space-->
-        <div class="bg-image-opening-time"><!--immagine provvisoria-->
-            <div class="bg-text-o-t">Welcome to Antica Barina</div>
-            <div class="bg-text-o-t">qualcosa a casissimo</div>
+        <div class="bg-image-opening-time flex-total-center"><!--immagine provvisoria-->
+            <div>
+                <div class="bg-text-o-t pad-1">Welcome to Antica Barina</div>
+                <div class="bg-text-o-t">qualcosa a casissimo</div>
+            </div> 
+            <!-- <div class="flex-col"> STESSA COSA DI RIGA 40-44
+                <span class="bg-text-o-t pad-1">Welcome to Antica Barina</span>
+                <span class="bg-text-o-t">qualcosa a casissimo</span>
+            </div>  -->
+
         </div>
         <!--/second space-->
         <div id="caffetteria"></div>
