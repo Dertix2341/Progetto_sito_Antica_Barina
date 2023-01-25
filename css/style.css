@@ -19,7 +19,7 @@
   background-color: red;
 }
 
-.first-space {
+.-space {
   display: flex;
   background-color: antiquewhite;
   border: 2px solid black;
@@ -58,13 +58,29 @@
 
 
 .bg-text {
-  text-align: center;
+  text-align: ;
   color: rgb(0, 0, 0);
   font-size: 3em;
   /* dimensione del testo */
 }
 
+.bg-image-opening-time {
+  background-image: url("../img/Solid_black.svg.webp");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  /* altezza della pagina */
+  width: 100vw;
+}
 
-h1 {
+.bg-text-o-t {
+  display: block;
   text-align: center;
+  color: rgb(250, 247, 247);
+  font-size: 3em;
+  /* dimensione del testo */
 }
