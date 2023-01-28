@@ -16,15 +16,10 @@
 </head>
 
 <body>
-    <div class="flex">
-        <div class="col-2 h100px bg-red wrap"></div>
-        <div class="col-2 h100px bg-red wrap"></div>
-        <div class="col-2 h100px bg-red wrap"></div>
-    </div>
     <!-- HEADER -->
     <header>
         <div class="bg-image flex-total-center"><!--immagine provvisoria-->
-            <div class="bg-text">Welcome to Antica Barina</div>
+            <div class="top-text">Welcome to Antica Barina</div>
         </div>
     </header>
     <!-- END-REGION HEADER -->
@@ -37,11 +32,51 @@
         <!--/first space-->
         <hr />
         <!--second space-->
-        <div class="bg-image-opening-time flex-total-center"><!--immagine provvisoria-->
-            <div>
-                <div class="bg-text-o-t pad-1">Welcome to Antica Barina</div>
-                <div class="bg-text-o-t">qualcosa a casissimo</div>
-            </div> 
+        <div class="flex"><!--timetable-->
+            <div class="bg-image-opening-time">
+                <div class="text-center margin-sp text-o-t">Oppening Times</div>
+                <div class="justify-between">
+                    <div id="timetable" class=" ">
+                        <!--Tabella del orario dal Lunedi al venerdi -->
+                        <TABLE class=" text-time-color table ">
+                            <!--head-->
+                            <thead class="text-table">
+                                <tr>
+                                    <th>Monday & Friday</th>
+                                </tr>
+                            </thead>
+                            <!--end head-->
+                            <!--tbody-->
+                            <tbody id="time" class="text-center text-time-color">
+                                <tr>
+                                    <td>Monday = 07:00/19:00</td>
+                                </tr>
+                                <tr>
+                                    <td>Tuesday = 07:00/19:00</td>
+                                </tr>
+                                <tr>
+                                    <td>Wednesday = Clouse </td>
+                                </tr>
+                                <tr>
+                                    <td>Thursday = 07:00/19:00</td>
+                                </tr>
+                                <tr>
+                                    <td>Friday = 07:00/19:00</td>
+                                </tr>
+                                <tr>
+                                    <td>Saturday = 8:00 / 21:00</td>
+                                </tr>
+                                <tr>
+                                    <td>Sunday = 8:00 / 21:00</td>
+                                </tr>
+                            </tbody>
+                            <!--end tbody-->
+                        </TABLE>
+                        <!--/Tabella del orario dal Lunedi al venerdi -->
+                    </div>
+                </div>
+            </div>
+
             <!-- <div class="flex-col"> STESSA COSA DI RIGA 40-44
                 <span class="bg-text-o-t pad-1">Welcome to Antica Barina</span>
                 <span class="bg-text-o-t">qualcosa a casissimo</span>
@@ -50,7 +85,6 @@
         </div>
         <!--/second space-->
         <div id="caffetteria"></div>
-        <div class="padding-1rem bg-red"></div>
         <div id="gastronomia"></div>
     </main>
     <!-- END-REGION MAIN -->

@@ -34,13 +34,20 @@
   text-align: center;
 }
 
+.text-table {
+  font-size: 3em;
+  color: rgb(250, 247, 247);
+}
+
 /*img[src="Screenshot_20230112_202029.png"] {
   height: 200px;
   width: auto;
 }*/
 
 
-
+.margin-sp {
+  margin: 70px auto;
+}
 
 /*i add a backgruond imagin*/
 .bg-image {
@@ -54,9 +61,9 @@
 }
 
 
-.bg-text {
+.top-text {
   color: rgb(0, 0, 0);
-  font-size: 3em;
+  font-size: 4em;
   /* dimensione del testo */
 }
 
@@ -70,10 +77,39 @@
   width: 100vw;
 }
 
-.bg-text-o-t {
-  display: block;
-  text-align: center;
+.text-o-t {
   color: rgb(250, 247, 247);
-  font-size: 3em;
+  font-size: 4em;
   /* dimensione del testo */
+}
+
+.text {
+  color: rgb(250, 247, 247);
+  font-size: 2em;
+
+}
+
+.text-time-color {
+  color: rgb(250, 247, 247);
+}
+
+#time {
+  font-size: 2em;
+}
+
+#timetable {
+  width: 50%;
+  height: 50%;
+  margin: 144px auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+table {
+  margin: 0 auto;
+}
+
+.flex-block {
+  display: block;
 }
