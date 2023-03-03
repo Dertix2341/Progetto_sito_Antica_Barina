@@ -67,15 +67,6 @@
   /* dimensione del testo */
 }
 
-.bg-image-opening-time {
-  background-image: url("../img/Solid_black.svg.webp");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  height: 100vh;
-  /* altezza della pagina */
-  width: 100vw;
-}
 
 .text-o-t {
   color: rgb(250, 247, 247);
@@ -112,4 +103,10 @@ table {
 
 .flex-block {
   display: block;
+}
+
+.title-opening-times{
+  background-color: blue;
+  color: aliceblue;
+  
 }
