@@ -88,25 +88,34 @@
   font-size: 2em;
 }
 
-#timetable {
-  width: 50%;
-  height: 50%;
-  margin: 144px auto;
-  display: flex;
+.center {
   justify-content: center;
   align-items: center;
 }
 
-table {
-  margin: 0 auto;
+
+.title-opening-times {
+  color: rgb(0, 3, 5);
+  width: 780px;
+  height: 150px;
+  font-size: 100px
 }
 
-.flex-block {
-  display: block;
-}
-
-.title-opening-times{
-  background-color: blue;
+.monday-fridey {
+  background-color: black;
   color: aliceblue;
-  
+  justify-content: flex-start;
+  font-size: 20px;
+  width: auto;
+  height: 200px;
+  margin: 300px auto
+}
+
+.saturday-sunday {
+  color: aliceblue;
+  flex-direction: column;
+  justify-content: flex-start;
+  font-size: 20px;
+  width: auto;
+  height: 200px;
 }
