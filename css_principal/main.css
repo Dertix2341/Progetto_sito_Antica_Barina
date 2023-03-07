@@ -1,0 +1,45 @@
+/* GLOBAL RESET */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+
+
+/*prewiew*/
+.-space {
+    display: flex;
+    background-color: antiquewhite;
+    border: 2px solid black;
+    width: auto;
+    height: 575px;
+    margin: 50px auto;
+    justify-content: center;
+  
+  }
+  
+  .text-center {
+    text-align: center;
+  }
+  /*end prewiew*/
+  
+  /*opening times*/
+  .bg-image_OP {
+    /*background-image: url("/img/trasferimento.jpg");*/
+    background-color: black;
+    height: 400px;
+    /* altezza della pagina */
+    width: auto;
+  }
+  .title-opening-times{
+    font-size: 50px;
+    color: aliceblue;
+  }
+
+  .text_color{
+    color: white;
+    font-size:20px;
+  }
+
+
+  /*end opening times*/
