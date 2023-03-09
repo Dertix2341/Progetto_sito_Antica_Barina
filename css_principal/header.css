@@ -1,17 +1,20 @@
 
 /*header*/
-.bg-image {/*i add a backgruond imagin*/
-    background-image: url("../img/7d1c6a80-4c1a-4e6e-92d0-e11caa25cfd0.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    height: 100vh;
-    /* altezza della pagina */
-    width: 100vw;
+.container_head{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.bg-image_head {/*i add a backgruond imagin*/
+    /*background-image: url("/img/7d1c6a80-4c1a-4e6e-92d0-e11caa25cfd0.jpg");*/
+    height: 550px;
+    width: auto;
+    background-color: black;
   }
 
-  .top-text{
-    color: black;
+  .text_head{
+    color: white;
     font-size: 40px;
   }
+
   /*end header*/
