@@ -1,11 +1,4 @@
-/* GLOBAL RESET */
-* {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-  }
 
-  
 /*header*/
 .bg-image {/*i add a backgruond imagin*/
     background-image: url("../img/7d1c6a80-4c1a-4e6e-92d0-e11caa25cfd0.jpg");
@@ -15,5 +8,10 @@
     height: 100vh;
     /* altezza della pagina */
     width: 100vw;
+  }
+
+  .top-text{
+    color: black;
+    font-size: 40px;
   }
   /*end header*/

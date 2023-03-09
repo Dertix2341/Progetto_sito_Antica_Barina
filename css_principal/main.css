@@ -1,10 +1,3 @@
-/* GLOBAL RESET */
-* {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-  }
-
 
 /*prewiew*/
 .-space {
@@ -24,21 +17,36 @@
   /*end prewiew*/
   
   /*opening times*/
-  .bg-image_OP {
-    /*background-image: url("/img/trasferimento.jpg");*/
+  .conteiner_OP {
     background-color: black;
     height: 400px;
-    /* altezza della pagina */
     width: auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
   }
-  .title-opening-times{
+  .title-op{
     font-size: 50px;
-    color: aliceblue;
+    color: white;
+    
   }
 
-  .text_color{
+  .text_op{
     color: white;
     font-size:20px;
+    margin: auto 30px;
+  }
+
+  .sub-container{
+    height: 1px;
+    width: auto;
+    display: flex;
+    margin: 104px;
+  }
+
+  .text_op_2{
+    color: white;
+    font-size:30px;
   }
 
 
