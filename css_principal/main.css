@@ -1,53 +1,50 @@
-
 /*prewiew*/
 .-space {
-    display: flex;
-    background-color: antiquewhite;
-    border: 2px solid black;
-    width: auto;
-    height: 575px;
-    margin: 50px auto;
-    justify-content: center;
-  
-  }
-  
-  .text-center {
-    text-align: center;
-  }
-  /*end prewiew*/
-  
-  /*opening times*/
-  .conteiner_OP {
-    background-color: black;
-    height: 400px;
-    width: auto;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-  }
-  .title-op{
-    font-size: 50px;
-    color: white;
-    
-  }
+  display: flex;
+  background-color: antiquewhite;
+  border: 2px solid black;
+  width: auto;
+  height: 575px;
+  margin: 50px auto;
+  justify-content: center;
 
-  .text_op{
-    color: white;
-    font-size:20px;
-    margin: auto 30px;
-  }
+}
 
-  .sub-container{
-    height: 1px;
-    width: auto;
-    display: flex;
-    margin: 104px;
-  }
+.text-center {
+  text-align: center;
+}
 
-  .text_op_2{
-    color: white;
-    font-size:30px;
-  }
+/*end prewiew*/
+
+/*opening times*/
+.conteiner_OP {
+  background-color: black;
+
+}
+
+.title-op {
+  font-size: 50px;
+  color: white;
+  text-align: center;
+}
+
+.sub-container .text_op {
+  color: white;
+  font-size: 20px;
+  width: 50%;
+}
+
+.sub-container {
+  height: 1px;
+  width: auto;
+  margin: 104px;
+}
 
 
-  /*end opening times*/
+.text_op_2 {
+  color: white;
+  font-size: 30px;
+}
+
+
+/*end opening times*/
