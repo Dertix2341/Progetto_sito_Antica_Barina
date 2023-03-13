@@ -1,32 +1,35 @@
 /*header*/
+/*image of background end a logo*/
 .container_head {
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
 }
 
 .bg-image_head {
   /*i add a backgruond imagin*/
   background-image: url("../img/7d1c6a80-4c1a-4e6e-92d0-e11caa25cfd0.jpg");
-  height: 1000px;
+  height: 700px;
   width: auto;
-  background-color: black;
-}
-
-.text_head {
-  color: white;
-  font-size: 40px;
+  
 }
 
 .logo-header {
-  height: 150px;
-  width: 150px;
+  height: 250px;
+  width: 250px;
 }
 
 .logo-header img {
   width: 100%;
   height: 100%;
 }
-
+/*/image of background end a logo*/
+/* text on center*/
+.text_head {
+  color: rgb(0, 0, 0);
+  font-size: 40px;
+}
+/*/text of center*/
 
 /*end header*/
