@@ -35,8 +35,7 @@
 }
 
 .sub-container {
-  height: 1px;
-  width: auto;
+  
   margin: 104px;
 }
 
@@ -48,3 +47,14 @@
 
 
 /*end opening times*/
+/*menu*/
+/*caffeteria*/
+.container_caffetteria {
+  background-color: chartreuse;
+  
+
+}
+
+.align-items {
+  align-items: center;
+}
