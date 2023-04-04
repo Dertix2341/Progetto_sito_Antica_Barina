@@ -1,9 +1,20 @@
 console.log("miao");
 
 //questo contenitore riempie la caffeteria cioè div con id="caffeteria"
-for (i = 0; i < caffetteria.length; i++) {
+for (i = 0; i < 10; i++) {
   document.getElementById(//vai a prendere il documento ovvero l'html con id 
     "caffetteria"
+  ).innerHTML += `
+    <div class="card_container">
+      <img class="img-fluid" src="${caffetteria[i]["img"]}" alt="${caffetteria[i]["nome"]}" />
+      <div>${caffetteria[i]["nome"]}</div>
+    </div>
+    `;
+}
+
+for (i = 10; i < 20; i++) {
+  document.getElementById(//vai a prendere il documento ovvero l'html con id 
+    "caffetteria2"
   ).innerHTML += `
     <div class="card_container">
       <img class="img-fluid" src="${caffetteria[i]["img"]}" alt="${caffetteria[i]["nome"]}" />
