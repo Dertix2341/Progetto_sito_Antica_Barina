@@ -19,6 +19,7 @@
 /*opening times*/
 .conteiner_OP {
   background-color: black;
+  margin: 50px auto;
 
 }
 
@@ -32,10 +33,11 @@
   color: white;
   font-size: 20px;
   width: 50%;
+  text-align: center
 }
 
 .sub-container {
-  margin: 104px;
+  margin: 105px;
 }
 
 
@@ -48,6 +50,16 @@
 /*end opening times*/
 /*menu*/
 
-.card_container {
-  background-color: chartreuse;
+.caffeteria {
+  background-color: aqua;
+
 }
+
+.titles-menu {
+  text-align: center;
+  font-size: 50px;
+}
+
+/*.font_title_menu {
+  font: bold;
+}*/
