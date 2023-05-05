@@ -49,7 +49,7 @@
 
 /*end opening times*/
 /*menu*/
-
+/*caffeteria*/
 .caffeteria {
   background-color: aqua;
 
@@ -60,6 +60,11 @@
   font-size: 50px;
 }
 
-/*.font_title_menu {
-  font: bold;
-}*/
+/* /caffeteria*/
+
+/*gastronomia*/
+.gastronomia {
+  background-color: blueviolet;
+}
+
+/* /gastronomia*/
