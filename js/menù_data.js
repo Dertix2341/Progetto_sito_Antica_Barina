@@ -164,19 +164,25 @@ let caffetteria = [
     },
     {
         nome: "Brioche Vegana",
+ continuo-dei-menu
         prezzo: "1.60€ / 2.10€",
+
         ingredienti: [],
         img: ""
     },
     {
         nome: "Brioche Frcite",
+ continuo-dei-menu
         prezzo: "1.50€ / 1.70€",
+
         ingredienti: [],
         img: "",
     },
     {
         nome: "Brioche doppia Frcitura",
+ continuo-dei-menu
         prezzo: "1.80€ / 2.60€",
+
         ingredienti: [],
         img: ""
     },
@@ -200,7 +206,9 @@ let caffetteria = [
     },
     {
         nome: "Paste",
+ continuo-dei-menu
         prezzo: "1.30€ / 2.50€",
+ 
         ingredienti: [],
         img: "",
     },
@@ -250,7 +258,7 @@ let bibite_e_aperitivi = [
     },
     {
         nome: "Succhi",
-        prezzo: 3.00 / 3.50,
+        prezzo: "3.00 / 3.50",
         ingredienti: [],
         img: "",
     },
@@ -538,7 +546,7 @@ let gastronomia = [
     },
     {
         nome: "Rosticeria",
-        prezzo: 1.00 / 3.50,
+        prezzo: "1.00 / 3.50",
         ingredienti: [],
         img: "",
     },

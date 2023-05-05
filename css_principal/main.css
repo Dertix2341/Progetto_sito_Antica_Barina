@@ -19,7 +19,10 @@
 /*opening times*/
 .conteiner_OP {
   background-color: black;
-  margin: 70px auto;
+
+  margin: 50px auto;
+
+
 }
 
 .title-op {
@@ -32,10 +35,12 @@
   color: white;
   font-size: 20px;
   width: 50%;
+  text-align: center
 }
 
 .sub-container {
-  margin: 104px 50px;
+
+  margin: 105px;
 
 }
 
@@ -52,6 +57,7 @@
 
 /*end opening times*/
 /*menu*/
+ continuo-dei-menu
 .background_of_menu{
   background-image: ;
 }
@@ -67,10 +73,12 @@
   text-align: center;
 }
 .title-menu-sections {
+
   text-align: center;
   font-size: 50px;
 }
 
+ continuo-dei-menu
 /*caffeteria*/
 .caffetteria {
   margin: 1rem;
@@ -100,3 +108,4 @@
   
   margin: 1rem;
 }
+
