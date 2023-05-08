@@ -1,223 +1,232 @@
+//ready
 let caffetteria = [
     {
         nome: "caffè/Macchiato",
-        prezzo: 1.30,
+        prezzo: "1.30€",
         ingredienti: [],
         img: "img/caffè.jpeg"
     },
     {
         nome: "Macchiatone",
-        prezzo: 1.50,
+        prezzo: "1.50€",
         ingredienti: [],
         img: ""
     },
     {
         nome: "Cappucino",
-        prezzo: 1.70,
+        prezzo: "1.70€",
         ingredienti: [],
         img: ""
     },
     {
         nome: "Caffè Decaffeinato",
-        prezzo: 1.40,
+        prezzo: "1.40€",
         ingredienti: [],
         img: ""
     },
     {
         nome: "Macchiatone Decaffeinato",
-        prezzo: 1.60,
+        prezzo: "1.60€",
         ingredienti: [],
         img: ""
     },
     {
         nome: "Cappucino Decaffeinato",
-        prezzo: 1.80,
+        prezzo: "1.80€",
         ingredienti: [],
         img: ""
     },
     {
         nome: "Orzo/giseng",
-        prezzo: 1.50,
+        prezzo: "1.50€",
         ingredienti: [],
         img: ""
     },
     {
         nome: "Orzo/Giseng Macchitone",
-        prezzo: 1.90,
+        prezzo: "1.90€",
         ingredienti: [],
         img: ""
     },
     {
         nome: "Caffè Soia",
-        prezzo: 1.60,
+        prezzo: "1.60€",
         ingredienti: [],
         img: ""
     },
     {
         nome: "Macchiatone Soia",
-        prezzo: 2.00,
+        prezzo: "2.00€",
         ingredienti: [],
         img: ""
     },
     {
         nome: "Cappucino Soia",
-        prezzo: 1.40,
+        prezzo: "1.40€",
         ingredienti: [],
         img: "",
     },
     {
         nome: "Latte Macchiato",
-        prezzo: 2.50,
+        prezzo: "2.50€",
         ingredienti: [],
         img: ""
     },
     {
         nome: "Marocchino",
-        prezzo: 1.70,
+        prezzo: "1.70€",
         ingredienti: [],
         img: ""
     },
     {
         nome: "Caffè Americano",
-        prezzo: 1.70,
+        prezzo: "1.70€",
         ingredienti: [],
         img: ""
     },
     {
         nome: "Caffè con Panna",
-        prezzo: 2.30,
+        prezzo: "2.30€",
         ingredienti: [],
         img: "",
     },
     {
         nome: "Caffè Corretto",
-        prezzo: 2.00,
+        prezzo: "2.00€",
         ingredienti: [],
         img: ""
     },
     {
         nome: "Crema Caffè",
-        prezzo: 2.80,
+        prezzo: "2.80€",
         ingredienti: [],
         img: ""
     },
     {
         nome: "Crema caffe Grande",
-        prezzo: 5.00,
+        prezzo: "5.00€",
         ingredienti: [],
         img: ""
     },
     {
         nome: "Caffè Freddo",
-        prezzo: 2.60,
+        prezzo: "2.60€",
         ingredienti: [],
         img: ""
     },
     {
         nome: "Caffè shkerato",
-        prezzo: 3.50,
+        prezzo: "3.50€",
         ingredienti: [],
         img: ""
     },
     {
         nome: "Irish Coffee",
-        prezzo: 5.00,
+        prezzo: "5.00€",
         ingredienti: [],
         img: ""
     },
     {
         nome: "Cioccolatina",
-        prezzo: 1.80,
+        prezzo: "1.80€",
         ingredienti: [],
         img: ""
     },
     {
         nome: "Cioccolata con panna",
-        prezzo: 4.00,
+        prezzo: "4.00€",
         ingredienti: [],
         img: ""
     },
     {
         nome: "cioccolata con Rum/Brandy",
-        prezzo: 4.50,
+        prezzo: "4.50€",
         ingredienti: [],
         img: ""
     },
     {
         nome: "the/Cammomilla",
-        prezzo: 3.20,
+        prezzo: "3.20€",
         ingredienti: [],
         img: ""
     },
     {
         nome: "Vin Brulè",
-        prezzo: 3.50,
+        prezzo: "3.50€",
         ingredienti: [],
         img: ""
     },
     {
         nome: "Brioche Vuota",
-        prezzo: 1.20,
+        prezzo: "1.20€",
         ingredienti: [],
         img: ""
     },
     {
         nome: "Brioche Vegana",
-        prezzo: "1.60 / 2.10",
+ continuo-dei-menu
+        prezzo: "1.60€ / 2.10€",
+
         ingredienti: [],
         img: ""
     },
     {
         nome: "Brioche Frcite",
-        prezzo: "1.50 / 1.70",
+ continuo-dei-menu
+        prezzo: "1.50€ / 1.70€",
+
         ingredienti: [],
         img: "",
     },
     {
         nome: "Brioche doppia Frcitura",
-        prezzo: "1.80 / 2.60",
+ continuo-dei-menu
+        prezzo: "1.80€ / 2.60€",
+
         ingredienti: [],
         img: ""
     },
     {
         nome: "Brioche Mignon Vuota",
-        prezzo: 1.00,
+        prezzo: "1.00€",
         ingredienti: [],
         img: ""
     },
     {
         nome: "Brioche Mignon Fatcita",
-        prezzo: 1.20,
+        prezzo: "1.20€",
         ingredienti: [],
         img: ""
     },
     {
         nome: "Gluten Free",
-        prezzo: 2.50,
+        prezzo: "2.50€",
         ingredienti: [],
         img: "",
     },
     {
         nome: "Paste",
-        prezzo: "1.30 / 2.50",
+ continuo-dei-menu
+        prezzo: "1.30€ / 2.50€",
+ 
         ingredienti: [],
         img: "",
     },
     {
         nome: "Waffel",
-        prezzo: 4.00,
+        prezzo: "4.00€",
         ingredienti: [],
         img: "",
     },
     {
         nome: "Waffel con Nutella",
-        prezzo: 5.00,
+        prezzo: "5.00€",
         ingredienti: [],
         img: "",
     },
     {
         nome: "prendere da asporto",
-        prezzo: 0.10,
+        prezzo: "0.10€",
         ingredienti: [],
         img: "",
     }
@@ -485,6 +494,7 @@ let cocktail_distillati_e_amari = [
         img: "",
     }
 ]
+//ready
 let gastronomia = [
     {
         nome: "Tramezzini",

@@ -3,9 +3,9 @@
   display: flex;
   background-color: antiquewhite;
   border: 2px solid black;
-  width: auto;
-  height: 575px;
-  margin: 50px auto;
+  width: 750px;
+  height: 350px;
+  margin: 110px auto;
   justify-content: center;
 
 }
@@ -19,7 +19,9 @@
 /*opening times*/
 .conteiner_OP {
   background-color: black;
+
   margin: 50px auto;
+
 
 }
 
@@ -29,7 +31,7 @@
   text-align: center;
 }
 
-.sub-container .text_op {
+.text_op {
   color: white;
   font-size: 20px;
   width: 50%;
@@ -37,7 +39,9 @@
 }
 
 .sub-container {
+
   margin: 105px;
+
 }
 
 
@@ -46,25 +50,62 @@
   font-size: 30px;
 }
 
+.margin-week{
+  margin: auto 50px;
+}
+
 
 /*end opening times*/
 /*menu*/
-/*caffeteria*/
-.caffeteria {
-  background-color: aqua;
-
+ continuo-dei-menu
+.background_of_menu{
+  background-image: ;
 }
 
-.titles-menu {
+.menu{
+  background-color: blueviolet;
+ 
+}
+
+.title-menu{
+  font-size: 60px;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  text-align: center;
+}
+.title-menu-sections {
+
   text-align: center;
   font-size: 50px;
 }
 
-/* /caffeteria*/
+ continuo-dei-menu
+/*caffeteria*/
+.caffetteria {
+  margin: 1rem;
+}
+
+/*bibite_e_aperitivi*/
+.bibite_e_aperitivi{
+  
+  margin: 1rem;
+}
+
+
+/*cocktail_distillati_e_amari*/
+.cocktail_distillati_e_amari{
+  
+  margin: 1rem;
+}
 
 /*gastronomia*/
 .gastronomia {
-  background-color: blueviolet;
+
+  margin: 1rem;
 }
 
-/* /gastronomia*/
+/*apericena*/
+.apericena{
+  
+  margin: 1rem;
+}
+
