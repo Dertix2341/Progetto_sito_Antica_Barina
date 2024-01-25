@@ -57,10 +57,10 @@
 
 /*end opening times*/
 /*menu*/
- continuo-dei-menu
-.background_of_menu{
+
+/*.background_of_menu{
   background-image: ;
-}
+}*/
 
 .menu{
   background-color: blueviolet;
@@ -78,7 +78,7 @@
   font-size: 50px;
 }
 
- continuo-dei-menu
+
 /*caffeteria*/
 .caffetteria {
   margin: 1rem;

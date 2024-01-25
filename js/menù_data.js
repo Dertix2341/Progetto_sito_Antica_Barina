@@ -164,7 +164,6 @@ let caffetteria = [
     },
     {
         nome: "Brioche Vegana",
- continuo-dei-menu
         prezzo: "1.60€ / 2.10€",
 
         ingredienti: [],
@@ -172,7 +171,6 @@ let caffetteria = [
     },
     {
         nome: "Brioche Frcite",
- continuo-dei-menu
         prezzo: "1.50€ / 1.70€",
 
         ingredienti: [],
@@ -180,7 +178,6 @@ let caffetteria = [
     },
     {
         nome: "Brioche doppia Frcitura",
- continuo-dei-menu
         prezzo: "1.80€ / 2.60€",
 
         ingredienti: [],
@@ -206,7 +203,6 @@ let caffetteria = [
     },
     {
         nome: "Paste",
- continuo-dei-menu
         prezzo: "1.30€ / 2.50€",
  
         ingredienti: [],

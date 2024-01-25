@@ -1,36 +1,25 @@
-console.log("miao");
+console.log(caffetteria.length);
 
 //questo contenitore riempie la caffeteria cioè div con id="caffeteria"
- continuo-dei-menu
+ 
 for (i = 0; i < 13; i++) {
 
   document.getElementById(//vai a prendere il documento ovvero l'html con id 
     "caffetteria"
   ).innerHTML += `
-    <div class="card_container">
- continuo-dei-menu
-
       <div>${caffetteria[i]["nome"]}</div>
       <div>${caffetteria[i]["prezzo"]}</div>
-
-
-    </div>
     `;
 }
 
- continuo-dei-menu
+ 
 for (i = 13; i < 26; i++) {
 
   document.getElementById(//vai a prendere il documento ovvero l'html con id 
     "caffetteria2"
   ).innerHTML += `
-    <div class="card_container">
- continuo-dei-menu
-      
       <div>${caffetteria[i]["nome"]}</div>
       <div>${caffetteria[i]["prezzo"]}</div>
-
-    </div>
     `;
 }
 
@@ -38,13 +27,8 @@ for (i = 26; i < 37; i++) {
   document.getElementById(//vai a prendere il documento ovvero l'html con id 
     "caffetteria3"
   ).innerHTML += `
-    <div class="card_container">
-      
       <div>${caffetteria[i]["nome"]}</div>
       <div>${caffetteria[i]["prezzo"]}</div>
-      
-
-    </div>
     `;
 }
 
@@ -124,7 +108,7 @@ for (i = 14; i < 21; i++) {
     <div>${gastronomia[i]["prezzo"]}</div>
     `;
 }
-continuo-dei-menu
+
 
 //questo contenitore riempie la apericena cioè div con id="apericena"
 for (i = 0; i < 5; i++) {
@@ -161,9 +145,7 @@ for (i = 10; i < 15; i++) {
 //]
 
 
-console.log(cocktail_distillati_e_amari.length);
 
- continuo-dei-menu
 //for (i = 1; i <= array.length; i++) {
 //  console.log("indice array ", i - 1, "-> valore", array[i - 1]);
 //}
